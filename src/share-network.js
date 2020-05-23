@@ -1,10 +1,6 @@
 import AvailableNetworks from './networks'
 
-let $window = typeof window !== 'undefined' ? window : null
 
-export function mockWindow (self) {
-  $window = self || window // mock window for unit testing
-}
 
 export default {
   name: 'ShareNetwork',
